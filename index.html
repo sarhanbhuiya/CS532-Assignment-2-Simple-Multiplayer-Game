@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document Metadata -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Document Title -->
+    <title>Connect Four Game</title>
+</head>
+<body>
+
+    <!-- Game Title -->
+    <h1>WELCOME TO THE CONNECT FOUR GAME</h1>
+    <h3>By Sarhan Bhuiya</h3>
+
+    <!-- Displaying the current player's status -->
+    <h3 class="player-move-status"></h3>
+
+    <!-- Game Grid -->
+    <div class="gamegrid">
+
+        <!-- The game grid consists of 6 rows and 7 columns -->
+        <table>
+            <!-- Rows for the game grid -->
+            <tr>
+                <!-- Individual slots for each column in the first row -->
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+            </tr>
+            <!-- Rows for the remaining 5 rows of the game grid -->
+            <tr>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+            </tr>
+            <tr>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+            </tr>
+            <tr>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+            </tr>
+            <tr>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+            </tr>
+            <tr>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+                <td class="disc-slot"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Restart Button -->
+    <div id="restartButton" class="restartButton"> <strong>RESTART GAME</strong></div>
+
+    <!-- JavaScript File for Game Logic -->
+    <script src="script.js"></script>
+</body>
+</html>

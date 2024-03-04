@@ -1,0 +1,148 @@
+/* Apply styles to all elements, resetting margin, padding, and using box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans-serif';
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Style for the main heading */
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+}
+
+/* Style for subheadings */
+h3 {
+    font-size: 2rem;
+    color: white;
+}
+
+/* Body styles including background color */
+body {
+    background-color: #4A818A;
+}
+
+/* Styles for the game grid container */
+.gamegrid {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 600px;
+    height: 520px;
+    top: 23%;
+    background: #64AAB3;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+/* Styles for individual cells in the game grid */
+.gamegrid table tr td {
+    width: 90px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Styles for the restart button */
+.restartButton {
+    position: absolute;
+    font-weight: bold;
+    width: 100px;
+    padding: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 95%;
+    text-align: center;
+    border: 1px solid black;
+    background: #334C59;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Media query for tablet view (600px to 781px) */
+@media screen and (min-width: 601px) and (max-width: 781px) {
+    /* Adjust styles for the game grid */
+    .gamegrid {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 60%;
+        height: 530px;
+        top: 20%;
+        border: 2px solid black;
+        padding: .5rem;
+    }
+
+    /* Adjusting Styles for the restart button */
+    .restartButton {
+        position: absolute;
+        width: 100px;
+        padding: 5px;
+        left: 50%;
+        transform: translate(-50%);
+        top: 90%;
+        text-align: center;
+        border: 1px solid black;
+        background: #334C59;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    /* Adjust heading font size */
+    h1 {
+        font-size: 2rem;
+    }
+
+    /* Adjust subheading font size */
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for the game grid */
+    .gamegrid {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 90%;
+        height: 520px;
+        top: 20%;
+        border: 2px solid black;
+        padding: .5rem;
+    }
+
+    /* Adjusting Styles for the restart button */
+    .restartButton {
+        position: absolute;
+        width: 100px;
+        padding: 5px;
+        left: 50%;
+        transform: translate(-50%);
+        top: 90%;
+        text-align: center;
+        border: 1px solid black;
+        background: #334C59;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+    
+    h3{
+        font-size: 1rem;
+    }
+}
