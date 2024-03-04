@@ -1,2 +1,5 @@
 # CS532-Assignment-2-Simple-Multiplayer-Game
 CS532 Assignment 2 Simple Multiplayer Game
+
+
+The project is a web-based Connect Four game designed with HTML, CSS, and JavaScript. It features a responsive layout and user interface. The game involves two players, each assigned a color (red and blue). Players take turns clicking on a column in the grid, and their colored discs fall to the lowest available position in that column. The game checks for a winning condition, either horizontally, vertically, diagonally, or anti-diagonally, and declares the winner accordingly. Additionally, it recognizes a draw when all grid positions are filled. The interface includes a restart button, and the game's progress is displayed through a status message indicating the current player's turn or the game's outcome. The code is well-structured, utilizing variables, query selectors, functions, and event listeners to facilitate gameplay and enhance user experience. The styling ensures a visually appealing and responsive design, adapting to different screen sizes. The project aims to provide an interactive and enjoyable implementation of the classic Connect Four game.
