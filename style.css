@@ -57,7 +57,7 @@ body {
     padding: 5px;
     left: 50%;
     transform: translate(-50%);
-    top: 95%;
+    top: 100%;
     text-align: center;
     border: 1px solid black;
     background: #334C59;
@@ -88,12 +88,11 @@ body {
         padding: 5px;
         left: 50%;
         transform: translate(-50%);
-        top: 110%;
+        
         text-align: center;
         border: 1px solid black;
         background: #334C59;
         cursor: pointer;
-        margin-top: 15px;
     }
 
     /* Adjust heading font size */
@@ -130,12 +129,12 @@ body {
         padding: 5px;
         left: 50%;
         transform: translate(-50%);
-        top: 110%;
+        
         text-align: center;
         border: 1px solid black;
         background: #334C59;
         cursor: pointer;
-        margin-top: 15px;
+        margin-top: 20%;
     }
 
     h1{
